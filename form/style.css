@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    position: absolute;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 10px;
+    box-shadow: -3px 4px 5px 3px rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+form label{
+    width: 100%;
+    text-align: left;
+    padding: 0px 5px;
+}
+form input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 7px 20px;
+    border: none;
+}
+form .img{
+    padding: 10px;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+div.control{
+    padding:1px 0px;
+}
+.err{
+    color: red;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif!important;
+}
+div.control button{
+    color: #fff;
+    margin-top: 7px;
+    text-align: center;
+    transition: 0.5s ease;
+    width: 100%;
+    border: none;
+    background-color: #ff7301;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+}div.control button:hover{
+    background-color: #df751e;
+}
+span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+form input:focus{
+    outline: none;
+}
